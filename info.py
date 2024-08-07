@@ -34,23 +34,7 @@ if len(BOT_TOKEN) == 0:
 PORT = int(environ.get('PORT', '80')) #don't change anything 
 
 # Bot pics
-PICS = (environ.get('PICS', 'https://graph.org/file/1b75c537d954286006a0a.jpg https://graph.org/file/be1f6f6a6c5ace723bcaa.jpg
-https://graph.org/file/2fa25721508a75b4c5022.jpg
-https://graph.org/file/7c104cf23ea0bb906ccab.jpg
-https://graph.org/file/73d5ab40b451c2263858d.jpg
-https://graph.org/file/b06a7c81217ceac8745fa.jpg
-https://graph.org/file/b298a69de146ee0193ad4.jpg
-https://graph.org/file/3b888f732925d0b859e34.jpg
-https://graph.org/file/34dc07c6473be09ce0fb1.jpg
-https://graph.org/file/c65c31b06dffd6c5ea243.jpg
-https://graph.org/file/14e985979638cbaf469b4.jpg
-https://graph.org/file/529a78b24ec37048ef3c1.jpg
-https://graph.org/file/6d57595c89db1b7f2f5b8.jpg
-https://graph.org/file/c2a4bf44199a6281ddbba.jpg
-https://graph.org/file/19922147ccfc8074a41c3.jpg
-https://graph.org/file/12214f733de715f6a68e6.jpg
-https://graph.org/file/64901de8c123c7bd3f44d.jpg
-https://graph.org/file/f226ae236e7451579076b.jpg')).split()
+PICS = (environ.get('PICS', '')).split()
 
 # Bot Admins
 ADMINS = environ.get('ADMINS', '5397893493') #apni tg id daalo
